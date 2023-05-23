@@ -680,3 +680,16 @@ margin-bottom: 72px;
     visibility: hidden;
     pointer-events: none;
 }
+
+.modal-text{
+    position: absolute;
+    text-align: center;
+    right: 24px;
+    top: 72px;
+    left: 24px;
+    color: #2E2F42;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
