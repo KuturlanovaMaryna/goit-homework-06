@@ -466,7 +466,7 @@
               name="user-name"
               class="modal-form-input"
               required
-              pattern="^[a-zA-Zа-яА-Я]+$"
+              pattern="^[a-zA-Zа-яА-Я]+"
               minlength="2"
             />
           </label>
@@ -474,7 +474,7 @@
             <span class="modal-form-discription">Phone</span>
             <input
               type="tel"
-              name="user-phone"
+              name="user_phone"
               class="modal-form-input"
               required
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
@@ -485,23 +485,26 @@
             <span class="modal-form-discription">Email</span>
             <input
               type="email"
-              name="user-email"
+              name="user_email"
               class="modal-form-input"
               required
+              title="example@gmail.com"
             />
           </label>
           <label for="" class="modal-form-field">
             <span class="modal-form-discription">Comment</span>
             <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
+              name="user_comment"
               class="modal-form-message"
               placeholder="Text input"
             ></textarea>
           </label>
-          <input id="user-policy" type="text" class="modal-form-check" />
+          <input
+            id="user-policy"
+            type="checkbox"
+            name="user_policy"
+            class="modal-form-check"
+          />
           <label for="user-policy" class="modal-form-chek-desk"
             >I accept the terms and conditions of the
             <a href=""> Privacy Policy</a></label
