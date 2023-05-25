@@ -518,12 +518,18 @@
             id="user-policy"
             type="checkbox"
             name="user_policy"
-            class="modal-form-check"
+            class="modal-form-check visually-hidden"
           />
-          <label for="user-policy" class="modal-form-chek-desk"
-            >I accept the terms and conditions of the
-            <a href=""> Privacy Policy</a></label
-          >
+          <label for="user-policy" class="modal-form-chek-desk">
+            <svg class="contact-form-checkbox" width="10" height="8">
+              <use
+                class="contact-form-checkmark-icon"
+                href="./images/icons.svg#icon-check"
+              ></use>
+            </svg>
+            I accept the terms and conditions of the
+            <a href="" class="privacy-policy-link"> Privacy Policy</a>
+          </label>
           <button type="submit" class="model-form-submit-btn">Send</button>
         </form>
       </div>
