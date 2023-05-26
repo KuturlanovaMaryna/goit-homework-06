@@ -534,7 +534,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-input-wrapper">
+          <div class="text-form-modal-comment">
             <label for="user_comment" class="modal-form-field">
               <span class="modal-form-discription">Comment</span></label
             >
@@ -545,24 +545,26 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <div type="checkbox" class="modal-form-check-desk-type">
+            <label for="user-policy" class="modal-form-check-desk">
+              <input
+                id="user-policy"
+                type="checkbox"
+                name="user_policy"
+                class="modal-form-check"
+              />
+              <svg class="contact-form-checkbox" width="10" height="8">
+                <use
+                  class="contact-form-checkmark-icon"
+                  href="./images/icons.svg#icon-check"
+                ></use>
+              </svg>
 
-          <label for="user-policy" class="modal-form-chek-desk">
-            <input
-              id="user-policy"
-              type="checkbox"
-              name="user_policy"
-              class="modal-form-check"
-            />
-            <svg class="contact-form-checkbox" width="10" height="8">
-              <use
-                class="contact-form-checkmark-icon"
-                href="./images/icons.svg#icon-check"
-              ></use>
-            </svg>
+              I accept the terms and conditions of the&nbsp;
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
+            </label>
+          </div>
 
-            I accept the terms and conditions of the
-            <a href="" class="privacy-policy-link">Privacy Policy</a>
-          </label>
           <button type="submit" class="model-form-submit-btn">Send</button>
         </form>
       </div>
