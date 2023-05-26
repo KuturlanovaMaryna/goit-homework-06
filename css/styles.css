@@ -868,8 +868,6 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 16px;
 }
 .modal-form-check-desk-type{
-display: flex;
-    align-items: center;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 12px;
@@ -882,6 +880,10 @@ display: flex;
 .modal-form-check {
     appearance: none;
     
+}
+.contact-form-checkbox-wrapper{
+display: flex;
+    align-items: center;
 }
 
 .contact-form-checkbox{
@@ -899,12 +901,7 @@ display: flex;
     border: 1px solid #9747FF;
     
 }
-.contact-form-checkmark-icon {
-    opacity: 0;
-}
-.modal-form-check:checked+.contact-form-checkbox > .contact-form-checkmark-icon{
-    opacity: 1;
-}
+
 
 .privacy-policy-link{
     color:#4D5AE5;
