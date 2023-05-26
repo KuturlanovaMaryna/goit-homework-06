@@ -901,14 +901,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px;
     padding: 4px 3px;
     margin-right: 8px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 
 }
 .modal-form-check:checked + .modal-form-check-desc > .contact-form-checkmark{
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
-    border-color: #404bbf;}
+    border-color: #404bbf;
+}
 
 .privacy-policy-link{
     color:#4D5AE5;
