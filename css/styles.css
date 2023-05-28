@@ -657,6 +657,10 @@ margin-bottom: 72px;
     border: none;
 }
 
+.modal-form-footer-submit:hover,
+.modal-form-footer-submit:focus {
+    background: #404BBF;
+}
 .modal-form-input-icon-footer {
     width: 24px;
     height: 24px;
